@@ -1,0 +1,16 @@
+const fse = require('fs-extra');
+fse.ensureDirSync('folder1');
+fse.ensureFileSync('folder1/file.txt');
+fse.ensureDirSync('folder2');
+fse.moveSync('folder1/file.txt', 'folder2/file.txt', { overwrite: true });
+fse.ensureDirSync('folder3');
+fse.copySync('folder2/file.txt', 'folder3/file.txt', { overwrite: true });
+fse.writeJsonSync('folder1/file.json', {"name": "myName"});
+const content = fse.readJsonSync('folder1/file.json');
+console.log(content);
+fse.removeSync('folder1/file.json');
+fse.removeSync('folder2/file.txt');
+fse.removeSync('folder3/file.txt');
+fse.removeSync('folder1');
+fse.removeSync('folder2');
+fse.removeSync('folder3');
