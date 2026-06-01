@@ -1,0 +1,12 @@
+{
+  "name": "homework-3",
+  "version": "1.0.0",
+  "description": "Homework-3. JS",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+   "start": "node homework.js"
+  }
+}
