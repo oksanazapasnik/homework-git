@@ -1,0 +1,12 @@
+{
+  "name": "homework-lesson-6",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "homework-arrays-objects.js",
+  "scripts": {
+    "start": "node homework-arrays-objects.js"
+  }
+}
