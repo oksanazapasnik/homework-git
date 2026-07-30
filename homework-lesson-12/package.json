@@ -1,0 +1,15 @@
+{
+  "name": "homework-lesson-12",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bbc-locators.spec.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.62.0",
+    "@types/node": "^26.1.2"
+  }
+}
