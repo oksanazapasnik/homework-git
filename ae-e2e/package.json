@@ -1,0 +1,34 @@
+{
+  "name": "automationexercise-e2e",
+  "version": "1.0.0",
+  "description": "End-to-end test automation framework for automationexercise.com.",
+  "type": "commonjs",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "report": "playwright show-report",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "playwright",
+    "e2e",
+    "page-object-model",
+    "automationexercise",
+    "test-automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@playwright/test": "^1.48.0",
+    "eslint": "^9.13.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-playwright": "^2.0.0",
+    "globals": "^15.11.0",
+    "prettier": "^3.3.3"
+  }
+}
